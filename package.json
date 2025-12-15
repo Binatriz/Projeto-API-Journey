@@ -12,6 +12,14 @@
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
-  }
+    "express": "^5.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Binatriz/Projeto-API-Journey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Binatriz/Projeto-API-Journey/issues"
+  },
+  "homepage": "https://github.com/Binatriz/Projeto-API-Journey#readme"
 }
