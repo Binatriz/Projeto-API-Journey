@@ -18,6 +18,8 @@ app.use(cors());
 // app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.use(express.static(path.join(__dirname)));
+
 app.post("/login", async (req, res) => {
     try {
         const { nome, senha } = req.body;
@@ -130,6 +132,6 @@ app.post("/metas", (req, res) => {
   return res.status(200).json({ message: "Metas salvas com sucesso!" });
 });
 
-const serverless = require("serverless-http");
-
-module.exports = serverless(app);
+app.listen(3001, () => {
+    console.log("API running on http://localhost:3001/");
+});
