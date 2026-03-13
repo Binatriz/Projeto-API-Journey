@@ -12,7 +12,8 @@
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "serverless-http": "^4.0.0"
   },
   "repository": {
     "type": "git",
